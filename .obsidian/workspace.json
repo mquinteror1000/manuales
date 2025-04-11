@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "964f35d7e5e44d46",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f4d80f16bc62e3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eda4e72f283cd617",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gnome/crear_lanzador_de_aplicaciones.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "crear_lanzador_de_aplicaciones"
+            }
+          },
+          {
+            "id": "d148c6c0a291aca8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "torrents/transmission_daemon.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "transmission_daemon"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "67ee91c14dcb1cc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "3eb0465d5ff57b6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78e5e916b175bf35",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9127ef586b463278",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "gnome",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fa923d445a209c42",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6e3c8c5a881832bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "080783a915683c47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e41bf6205fcd4e18",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "torrents/transmission-daemon.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de transmission-daemon"
+            }
+          },
+          {
+            "id": "53070bb6a1f31227",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "gnome/crear_lanzador_de_aplicaciones.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de crear_lanzador_de_aplicaciones"
+            }
+          },
+          {
+            "id": "b54d47498eae2848",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "4ee6c50b5741c242",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "gnome/crear_lanzador_de_aplicaciones.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de crear_lanzador_de_aplicaciones"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "eda4e72f283cd617",
+  "lastOpenFiles": [
+    "torrents/transmission_daemon.md",
+    "torrents/transmisison_cli.md",
+    "gnome/crear_lanzador_de_aplicaciones.md",
+    "ssh/usar_clave_personalizada_ssh_github.md",
+    "ssh"
+  ]
+}
