@@ -4,7 +4,7 @@ Como eliminar una carptea de git, cuando esta ya se agrego al repositorio
 ```bash
 ./mi_carpeta_oculta
 # carpeta normal
-/mi_carpeta_normal/
+mi_carpeta_normal/
 ```
 2. Sí la carpeta ya se agregó
 ```bash
