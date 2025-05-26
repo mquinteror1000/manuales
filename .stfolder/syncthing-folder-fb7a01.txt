@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: kaim4-etvfj
+created: 2025-05-08T11:27:49-06:00

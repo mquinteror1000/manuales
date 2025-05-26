@@ -36,3 +36,4 @@ habilitar el servicio[[service_status]]
 ```bash
 systemctl status smb nmb
 ```
+Nendnf
