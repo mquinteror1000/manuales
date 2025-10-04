@@ -1,4 +1,4 @@
-#samba #servicio #samba 
+#samba #servicio #samba #selinux
 ### instalar samba
 instalar el servidor
 ```bash
@@ -36,4 +36,5 @@ habilitar el servicio[[service_status]]
 ```bash
 systemctl status smb nmb
 ```
-Nendnf
+Configurar permisos de selinux
+
