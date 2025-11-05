@@ -1,0 +1,3 @@
+Intrucciones
+
+[[vnc conf firewall]]
