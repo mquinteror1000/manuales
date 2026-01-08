@@ -17,6 +17,6 @@ sshfs remote_user@server:/home/remote_user/remote_folfer /home/local_user/remote
 ```
 Desmontar el sistema de archivos
 ```bash
-fusermount -u /home/local_user/remote_folder
+fumount -u /home/local_user/remote_folder
 ```
  
