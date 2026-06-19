@@ -54,7 +54,7 @@ systemctl --user status ydotool
 - nombre: contextual_menu
 - comando: env YDOTOOL_SOCKET=/run/user/1000/.ydotool_socket ydotool key 42:1 68:1 68:0 42:0
 - atajo: Shft + PrintScreen
-![[gnome_custom_keyboard_shortcuts.png|699]]
+![configuracion](./imgs/gnome_custom_keyboard_shortcuts.png)
 
 ### Eliminar el retraso del mouse DWT
 ```bash
