@@ -13,7 +13,7 @@ permisos
 chmod -R 0775 /home/myuser/data
 chown -r myuser:myuser /home/myuser/data
 ```
-Archivo de configuracion
+Archivo de configuración
 ```bash
 [data]
         comment=data
@@ -31,10 +31,13 @@ Habilitar los usuarios
 smbpasswd -a myuser
 smbpasswd -e myuser
 ```
-permitir el servicio en el [[firewall_cmd_httpd]]firewall el servicio samba
+permitir el servicio en el [[firewall_cmd_httpd]] firewall el servicio samba
 habilitar el servicio[[service_status]]
 ```bash
 systemctl status smb nmb
 ```
 Configurar permisos de selinux
 
+```bash
+chcon -t samba_share_t /home/mquinteror/data
+``` 

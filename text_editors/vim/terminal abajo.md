@@ -6,3 +6,5 @@ Cambiar entre ventanas
 ```
 :c+w,w
 ```
+
+ejemplo 
