@@ -1,3 +1,10 @@
+# Git Hub CLI 
+
+## Instalacion
+Para fedora, se encuentra en los repositorios oficiales
+```bash
+sudo dnf install gh
+```
 ## Iniciar sesión en la consola
 ```bash
 gh auth login
@@ -23,13 +30,23 @@ Press Enter to open https://github.com/login/device in your browser...
 ✓ Logged in as USER
 
 ```
+### mostrar los repositorios
+```bash
+gh repo list
+```
+Mostrar
+NAME                                   DESCRIPTION                           INFO    UPDATED             
 
 
-## Crear un repositorio de prueba
+
 ### crear repositorio de manera interactiva
 el mas fácil
 ```bash
 gh repo create
 ```
-
 ### Crear repositorio 
+
+### Clonar un repositorio
+```bash
+gh repo clone my_repo
+```
