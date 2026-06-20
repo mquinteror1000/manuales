@@ -63,10 +63,25 @@ gsettings set org.gnome.desktop.peripherals.touchpad disable-while-typing false
 También funciona deshabilitar la opción de: sidable tochpad when writing en gnome settings
 ### Troubleshooting
 
-
+Limpar sockets fantasma si antes se inicio el sevicio como servicio de sistema
 ```bash
-srw-------.  1 root   root     0 Jun 19 11:06 .ydotool_socket
-martin@pc-bdx-mqr:/tmp$ rm -rf .ydotool_socket 
-rm: cannot remove '.ydotool_socket': Operation not permitted
-martin@pc-bdx-mqr:/tmp$ sudo rm -rf .ydotool_socket 
+sudo rm -f /tmp/.ydotool_socket /run/user/$(id -u)/.ydotool_socket
+```
+Si hay un error al abrir /dev/uinput
+Sí cuando se ejecuta
+```bash
+/usr/bin/ydotool
+# sin sudo
+```
+se obtiene 
+```bash
+failed to open uinput device: Permission denied
+```
+Verificar que el cambio se haya aplicado a nivel hardarare    ( propietarios del sockert )
+```bash
+ls -l /dev/uinput
+```
+Debera mostrar una salida del estilo:
+```bash
+input crw-rw----. 1 root input...
 ```

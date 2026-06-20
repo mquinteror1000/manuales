@@ -3,7 +3,7 @@
 
 ```bash
 git config --list
-git config --global user.name "mqiunteror"
-git config --global user.email "martinsilloelfilosodo@gmail.com"
+git config --global user.name "myusername"
+git config --global user.email "myemail@gmail.com"
 
 ```
