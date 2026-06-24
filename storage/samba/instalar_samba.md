@@ -41,3 +41,6 @@ Configurar permisos de selinux
 ```bash
 chcon -t samba_share_t /home/mquinteror/data
 ``` 
+
+## Referencias
+- Linux storage security and networking
