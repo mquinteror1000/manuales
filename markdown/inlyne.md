@@ -27,10 +27,13 @@ export PATH=$PATH:$HOME/.cargo/bin
 como ejecutar `inlyne view mymarkdown.md` es tedioso mejor crear una función en el bashrc<br>
 ~/.bashrc
 ```bash
+export -f ilv
 ilv (){
-    inlyne "$1" 2>/dev/null &
+    #inlyne "$1" 2>/dev/null &
+    inlyne "$1" &>/dev/null &
 }
 export -f ilv
+
 ```
 actualizar con 
 ```bash
