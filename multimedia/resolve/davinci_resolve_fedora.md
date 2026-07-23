@@ -43,7 +43,7 @@ sudo dnf install libxcrypt-compat
 # libxcrypt-compat
 ```
 Ahora si abre el desgraciado solo para quejarse de la GPU<br>
-![gpu_wrong](imgs/gpu_wrong.pngi)
+![gpu_wrong](imgs/gpu_wrong.png)
 
 ## Desinstalar
 La pobresa, ocupa gráfia integrada
